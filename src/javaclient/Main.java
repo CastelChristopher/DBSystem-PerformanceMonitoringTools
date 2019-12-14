@@ -2,6 +2,11 @@ package javaclient;
 
 import javaclient.queries.*;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -9,9 +14,11 @@ public class Main {
 
     private static long[] arrivals;
 
-    private static final int NUMBER_ARRIVALS = 1_000;
+    private static final int NUMBER_ARRIVALS = 100;
     private static final int LAMBDA = 1;
-    private static final int QUERIES_WARMUP = 100;
+    private static final int SELECT_LIMIT = 1000;
+    private static final String BASE_PATH = "logs/java_query_";
+    private static final String FILE_EXTENSION = ".log";
 
     private static Map<QueryType, Query> queries = new HashMap<>();
 
@@ -23,25 +30,19 @@ public class Main {
         queries.put(QueryType.CLEANUP, new QueryCleanup());
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, IOException {
         buildArrivalSimulation();
         JavaClient client = new JavaClient();
 
-        Query query = queries.get(QueryType.SIMPLE_SELECT);
-        System.out.println("WARMUP STARTED");
+        QueryType queryType = QueryType.SIMPLE_SELECT;
+        Query query = queries.get(queryType);
+        String PATH = BASE_PATH + queryType + "_" + SELECT_LIMIT + "_" + System.currentTimeMillis() +  FILE_EXTENSION;
+        Path path = Paths.get(PATH);
+        Files.createFile(path);
+
         for (long arrival : arrivals) {
-            for (int i = 0; i < 100; i++) {
-                Thread.sleep(arrival);
-                client.executeQuery(query);
-            }
-        }
-        System.out.println("WARMUP DONE");
-        System.out.println("--------------------");
-        for (long arrival : arrivals) {
-            for (int i = 0; i < 100; i++) {
-                Thread.sleep(arrival);
-                client.executeQuery(query);
-            }
+            Thread.sleep(arrival);
+            client.executeQuery(query, path, SELECT_LIMIT);
         }
     }
 

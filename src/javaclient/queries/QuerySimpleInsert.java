@@ -2,11 +2,12 @@ package javaclient.queries;
 
 import javaclient.Utils;
 
+import java.nio.file.Path;
 import java.sql.*;
 
 public class QuerySimpleInsert implements Query {
     @Override
-    public void execute(Connection connection) throws SQLException {
+    public void execute(Connection connection, Path path, Object... params) throws SQLException {
         PreparedStatement stmt = connection.prepareStatement(
                 "INSERT INTO employees.salaries (emp_no, salary, from_date, to_date) VALUES(?, ?, ?, ?)",
                 PreparedStatement.RETURN_GENERATED_KEYS);
