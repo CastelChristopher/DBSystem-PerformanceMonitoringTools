@@ -12,7 +12,7 @@ import java.time.Instant;
 
 public class JavaClient {
 
-    private static final String URL = "jdbc:mariadb://derhomeschlager.duckdns.org:3306";
+    private static final String URL = "jdbc:mariadb://192.168.1.100:3306";
     private static final String USER = "student";
     private static final String PASSWORD = "1234";
 
