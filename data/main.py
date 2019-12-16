@@ -8,6 +8,7 @@ from utils import plot_type
 from formatters import ifpps_formatter
 from formatters import perf_formatter
 from formatters import pidstat_formatter
+from formatters import java_formatter
 import merger
 import plotter
 
@@ -39,6 +40,7 @@ for idx, query in enumerate(todo_list):
     perf_formatter.format(log_folder, plot_folder)
     pidstat_formatter.format(log_folder, plot_folder)
     ifpps_formatter.format(log_folder, plot_folder)
+    java_formatter.format(log_folder, plot_folder)
 
 # ======================
 #   MERGERS / PLOTTERS

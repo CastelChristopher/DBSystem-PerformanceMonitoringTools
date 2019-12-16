@@ -9,10 +9,9 @@ plots_folder_path = os.path.join(script_path, 'plots')
 
 def merge(plot_type, query):
 
-    init_unix_time = None
     data_file = plot_type + ".dat"
     plot_file = plot_type + "_merged.dat"
-    client_input_path = os.path.join(logs_folder_path, query, "java.log")
+    client_input_path = os.path.join(plots_folder_path, query, "data", "java.dat")
     server_input_path = os.path.join(plots_folder_path, query, "data", data_file)
     output_path = os.path.join(plots_folder_path, query, plot_file)
 
@@ -36,7 +35,6 @@ def merge(plot_type, query):
             elif curr_client_time > curr_server_time:
                 server_idx = server_idx + 1
                 curr_server_time = int(server_lines[server_idx].split()[0])
-        init_unix_time = curr_client_time
 
         # ===========
         # MERGING

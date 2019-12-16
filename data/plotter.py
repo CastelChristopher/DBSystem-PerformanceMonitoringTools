@@ -18,9 +18,9 @@ def plot(plot_type, query, gnuplot_headers, columns_filter):
         # Gnuplot headers
         for i in range(len(gnuplot_headers)):
             fp_out.write(gnuplot_headers[i] + '\n')
-        
+
         for col_filter in columns_filter:
-            cols = '1:' + str(3 + col_filter[0]) + ' '            
+            cols = '1:' + str(5 + col_filter[0]) + ' '
             fp_out.write('replot "' + plot_type + '_merged.dat" using ' + cols + 'title "' + col_filter[1] + '" with lines\n')
             # if col_filter[0] <= 1:
                 # fp_out.write('plot "' + plot_type + '.plot" using ' + cols + 'title "' + col_filter[1] + '" with lines\n')
