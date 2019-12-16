@@ -10,13 +10,12 @@ def format(log_folder, plot_folder):
 
     with open(in_file) as fp_in, \
             open(out_file, "w") as fp_out:
-
         lines = fp_in.read().splitlines()
-
         idx = 3 # skipping headers
         while idx < len(lines):
             if len(lines[idx]) > 0 and lines[idx].find('#') == -1:
-                fp_out.write(lines[idx] + '\n')
+                line_tokens = lines[idx].split()
+                line_out = ' '.join(line_tokens) # getting rid of extra spaces
+                fp_out.write(line_out + '\n')
             idx = idx + 1
-
     return

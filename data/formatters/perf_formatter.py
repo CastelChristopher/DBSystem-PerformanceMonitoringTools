@@ -2,7 +2,7 @@ import re
 import os
 import calendar
 import datetime
-dict((v,k) for k,v in enumerate(calendar.month_abbr))
+dict((v, k) for k, v in enumerate(calendar.month_abbr))
 
 script_dir = os.path.dirname(__file__)
 
@@ -28,7 +28,7 @@ def format(log_folder, plot_folder):
         init_timestamp = str(init_timestamp).split('.')
         init_timestamp = int(init_timestamp[0])
 
-        idx = 3 # skipping headers
+        idx = 3  # skipping headers
         timestamp = None
         tokens_out = []
         while idx < len(lines):
@@ -46,10 +46,10 @@ def format(log_folder, plot_folder):
                 token_out = line_tokens[0].replace(',', '')
                 tokens_out.append(token_out)
 
-            idx = idx + 1            
+            idx = idx + 1
             line_out = ''
-            if (idx % 3 == 0): # next line is the start of a new group
-                line_out = str(timestamp) + ' ' + ' '.join(tokens_out)                
+            if (idx % 3 == 0):  # next line is the start of a new group
+                line_out = str(timestamp) + ' ' + ' '.join(tokens_out)
                 tokens_out = []
                 fp_out.write(line_out + '\n')
     return
