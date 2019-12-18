@@ -33,13 +33,13 @@ for idx, query in enumerate(todo_list):
     plot_folder = os.path.join(plots_folder_path, query)
     plot_data_folder = os.path.join(plots_folder_path, query, "data")
 
-    os.mkdir(plot_folder)
-    os.mkdir(plot_data_folder)
+    # os.mkdir(plot_folder)
+    # os.mkdir(plot_data_folder)
 
     # formatters
-    perf_formatter.format(log_folder, plot_folder)
-    pidstat_formatter.format(log_folder, plot_folder)
-    ifpps_formatter.format(log_folder, plot_folder)
+    # perf_formatter.format(log_folder, plot_folder)
+    # pidstat_formatter.format(log_folder, plot_folder)
+    # ifpps_formatter.format(log_folder, plot_folder)
     java_formatter.format(log_folder, plot_folder)
 
 # ======================
@@ -208,7 +208,7 @@ for idx, query in enumerate(plots_folders):
     # --------------------
 
     custom_headers = gnuplot_headers.copy()
-    merger.merge("perf", query)
+    # merger.merge("perf", query)
 
     filters = fill_col_labels(perf_col_labels, FILTER_PERF_ALL)
     custom_headers.append('set title "perf_all"')
@@ -217,7 +217,7 @@ for idx, query in enumerate(plots_folders):
     custom_headers.append('set xrange [0:100]')
     custom_headers.append('set yrange [0:500]')
 
-    plotter.plot("perf", query, custom_headers, [])
+    # plotter.plot("perf", query, custom_headers, [])
 
     # IFPPS
     # --------------------

@@ -8,7 +8,7 @@ script_dir = os.path.dirname(__file__)
 
 def format(log_folder, plot_folder):
 
-    in_file = os.path.join(script_dir, "..", log_folder, "server", "perf.log")
+    in_file = os.path.join(script_dir, "..", log_folder, "perf.log")
     out_file = os.path.join(script_dir, "..", plot_folder, "data", "perf.dat")
 
     with open(in_file) as fp_in, \
