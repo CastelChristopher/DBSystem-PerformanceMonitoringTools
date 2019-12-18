@@ -1,0 +1,239 @@
+Linux 4.19.0-6-amd64 (debian) 	12/18/2019 	_x86_64_	(4 CPU)
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696088    117     30504      1.00      0.00 1713112   92324   2.45      0.00   2100.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696089    117     30504      0.00      0.00 1713112   92324   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696090    117     30504     93.00      0.00 1781148   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696091    117     30504      0.00      0.00 1781148   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696092    117     30504      0.00      0.00 1781148   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696093    117     30504     20.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696094    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696095    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696096    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696097    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696098    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696099    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696100    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696101    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696102    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696103    117     30504      1.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696104    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696105    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696106    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696107    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696108    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696109    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696110    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696111    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696112    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696113    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696114    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696115    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696116    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696117    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696118    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696119    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696120    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696121    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696122    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696123    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696124    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696125    117     30504      0.00      0.00 1846984   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696126    117     30504     20.00      0.00 1912820   92500   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696127    117     30504      0.00      0.00 1912820   92520   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696128    117     30504      0.00      0.00 1912820   92520   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696129    117     30504      0.00      0.00 1912820   92520   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696130    117     30504      0.00      0.00 1912820   92520   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696131    117     30504      0.00      0.00 1912820   92520   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696132    117     30504      0.00      0.00 1912820   92520   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696133    117     30504      0.00      0.00 1912820   92520   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696134    117     30504      0.00      0.00 1912820   92520   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696135    117     30504      0.00      0.00 1912820   92520   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696136    117     30504      0.00      0.00 1912820   92520   2.45      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696137    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696138    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696139    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696140    117     30504      1.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696141    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696142    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696143    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696144    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696145    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696146    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696147    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696148    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696149    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696150    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696151    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696152    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696153    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696154    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696155    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696156    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696157    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696158    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696159    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696160    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696161    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696162    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696163    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696164    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696165    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+
+# Time        UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+1576696166    117     30504      0.00      0.00 1912820   93768   2.49      0.00      0.00      0.00       0  mysqld
+

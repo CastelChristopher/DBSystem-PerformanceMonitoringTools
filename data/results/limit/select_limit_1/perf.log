@@ -1,0 +1,319 @@
+# started on Wed Dec 18 19:49:12 2019
+
+#           time             counts unit events
+     1.000485257          6,305,623      cache-references                                            
+     1.000485257          2,880,106      cache-misses              #   45.675 % of all cache refs    
+     1.000485257              7,671      page-faults                                                 
+     2.001003964            746,799      cache-references                                            
+     2.001003964            479,622      cache-misses              #   13.602 % of all cache refs    
+     2.001003964                  8      page-faults                                                 
+     3.001448533            294,270      cache-references                                            
+     3.001448533            214,642      cache-misses              #    8.765 % of all cache refs    
+     3.001448533                  0      page-faults                                                 
+     4.001886900          1,110,180      cache-references                                            
+     4.001886900            731,459      cache-misses              #   34.597 % of all cache refs    
+     4.001886900                112      page-faults                                                 
+     5.002365607            709,441      cache-references                                            
+     5.002365607            522,024      cache-misses              #   28.475 % of all cache refs    
+     5.002365607                  9      page-faults                                                 
+     6.002747694          1,719,762      cache-references                                            
+     6.002747694          1,187,165      cache-misses              #   65.432 % of all cache refs    
+     6.002747694                141      page-faults                                                 
+     7.003170257            411,592      cache-references                                            
+     7.003170257            274,614      cache-misses              #   17.015 % of all cache refs    
+     7.003170257                  0      page-faults                                                 
+     8.003593811            834,130      cache-references                                            
+     8.003593811            605,496      cache-misses              #   39.928 % of all cache refs    
+     8.003593811                  0      page-faults                                                 
+     9.004003330            301,417      cache-references                                            
+     9.004003330            214,217      cache-misses              #   15.506 % of all cache refs    
+     9.004003330                  0      page-faults                                                 
+    10.004415638            499,933      cache-references                                            
+    10.004415638            366,266      cache-misses              #   28.320 % of all cache refs    
+    10.004415638                  0      page-faults                                                 
+    11.004829363            827,194      cache-references                                            
+    11.004829363            543,990      cache-misses              #   43.486 % of all cache refs    
+    11.004829363                119      page-faults                                                 
+    12.005245178            975,952      cache-references                                            
+    12.005245178            642,662      cache-misses              #   52.333 % of all cache refs    
+    12.005245178                  0      page-faults                                                 
+    13.005661527            576,333      cache-references                                            
+    13.005661527            421,934      cache-misses              #   35.821 % of all cache refs    
+    13.005661527                  0      page-faults                                                 
+    14.006089004            327,660      cache-references                                            
+    14.006089004            230,374      cache-misses              #   20.621 % of all cache refs    
+    14.006089004                  0      page-faults                                                 
+    15.006531145            312,324      cache-references                                            
+    15.006531145            221,870      cache-misses              #   20.862 % of all cache refs    
+    15.006531145                  0      page-faults                                                 
+    16.006945173            426,916      cache-references                                            
+    16.006945173            270,294      cache-misses              #   26.403 % of all cache refs    
+    16.006945173                125      page-faults                                                 
+    17.007362194            332,148      cache-references                                            
+    17.007362194            232,795      cache-misses              #   23.681 % of all cache refs    
+    17.007362194                  0      page-faults                                                 
+    18.007776920            821,148      cache-references                                            
+    18.007776920            585,825      cache-misses              #   60.143 % of all cache refs    
+    18.007776920                  0      page-faults                                                 
+    19.008191982            338,531      cache-references                                            
+    19.008191982            243,375      cache-misses              #   25.875 % of all cache refs    
+    19.008191982                  0      page-faults                                                 
+    20.008607377            551,048      cache-references                                            
+    20.008607377            405,703      cache-misses              #   44.045 % of all cache refs    
+    20.008607377                  0      page-faults                                                 
+    21.009024147            462,392      cache-references                                            
+    21.009024147            294,595      cache-misses              #   32.759 % of all cache refs    
+    21.009024147                119      page-faults                                                 
+    22.009440266            664,434      cache-references                                            
+    22.009440266            466,355      cache-misses              #   52.482 % of all cache refs    
+    22.009440266                  0      page-faults                                                 
+    23.009854935            835,537      cache-references                                            
+    23.009854935            604,208      cache-misses              #   68.172 % of all cache refs    
+    23.009854935                  1      page-faults                                                 
+    24.010212644            690,759      cache-references                                            
+    24.010212644            511,946      cache-misses              #   58.298 % of all cache refs    
+    24.010212644                  1      page-faults                                                 
+    25.010626006            314,295      cache-references                                            
+    25.010626006            228,256      cache-misses              #   26.678 % of all cache refs    
+    25.010626006                  0      page-faults                                                 
+#           time             counts unit events
+    26.011041730            742,293      cache-references                                            
+    26.011041730            489,200      cache-misses              #   57.469 % of all cache refs    
+    26.011041730                124      page-faults                                                 
+    27.011462484            447,493      cache-references                                            
+    27.011462484            306,628      cache-misses              #   36.666 % of all cache refs    
+    27.011462484                  0      page-faults                                                 
+    28.011896737            608,273      cache-references                                            
+    28.011896737            442,363      cache-misses              #   53.417 % of all cache refs    
+    28.011896737                  0      page-faults                                                 
+    29.012309049            643,189      cache-references                                            
+    29.012309049            468,032      cache-misses              #   56.955 % of all cache refs    
+    29.012309049                  0      page-faults                                                 
+    30.012722883            836,263      cache-references                                            
+    30.012722883            605,561      cache-misses              #   73.647 % of all cache refs    
+    30.012722883                  0      page-faults                                                 
+    31.013135079          1,069,496      cache-references                                            
+    31.013135079            692,421      cache-misses              #   83.402 % of all cache refs    
+    31.013135079                124      page-faults                                                 
+    32.013557330            940,135      cache-references                                            
+    32.013557330            683,456      cache-misses              #   81.983 % of all cache refs    
+    32.013557330                  0      page-faults                                                 
+    33.013981257            679,479      cache-references                                            
+    33.013981257            485,101      cache-misses              #   58.518 % of all cache refs    
+    33.013981257                  0      page-faults                                                 
+    34.014395762            370,760      cache-references                                            
+    34.014395762            254,178      cache-misses              #   31.168 % of all cache refs    
+    34.014395762                  0      page-faults                                                 
+    35.014847545            571,767      cache-references                                            
+    35.014847545            410,445      cache-misses              #   50.764 % of all cache refs    
+    35.014847545                  0      page-faults                                                 
+    36.015292541            881,246      cache-references                                            
+    36.015292541            575,095      cache-misses              #   70.950 % of all cache refs    
+    36.015292541                123      page-faults                                                 
+    37.015721312            508,772      cache-references                                            
+    37.015721312            374,863      cache-misses              #   46.717 % of all cache refs    
+    37.015721312                  0      page-faults                                                 
+    38.016160159            593,818      cache-references                                            
+    38.016160159            440,133      cache-misses              #   55.230 % of all cache refs    
+    38.016160159                  0      page-faults                                                 
+    39.016602191            656,782      cache-references                                            
+    39.016602191            471,427      cache-misses              #   59.424 % of all cache refs    
+    39.016602191                  0      page-faults                                                 
+    40.017036483            291,963      cache-references                                            
+    40.017036483            200,572      cache-misses              #   25.688 % of all cache refs    
+    40.017036483                  0      page-faults                                                 
+    41.017486028            766,063      cache-references                                            
+    41.017486028            511,165      cache-misses              #   65.498 % of all cache refs    
+    41.017486028                123      page-faults                                                 
+    42.017899813            683,135      cache-references                                            
+    42.017899813            472,906      cache-misses              #   60.776 % of all cache refs    
+    42.017899813                  0      page-faults                                                 
+    43.018363753            307,940      cache-references                                            
+    43.018363753            214,226      cache-misses              #   27.924 % of all cache refs    
+    43.018363753                  0      page-faults                                                 
+    44.018774870            609,174      cache-references                                            
+    44.018774870            439,504      cache-misses              #   57.558 % of all cache refs    
+    44.018774870                  0      page-faults                                                 
+    45.019186405            331,302      cache-references                                            
+    45.019186405            230,251      cache-misses              #   30.538 % of all cache refs    
+    45.019186405                  0      page-faults                                                 
+    46.019605034            793,815      cache-references                                            
+    46.019605034            545,152      cache-misses              #   72.220 % of all cache refs    
+    46.019605034                122      page-faults                                                 
+    47.020019522            678,795      cache-references                                            
+    47.020019522            482,666      cache-misses              #   64.080 % of all cache refs    
+    47.020019522                  0      page-faults                                                 
+    48.020428957            832,284      cache-references                                            
+    48.020428957            579,145      cache-misses              #   76.721 % of all cache refs    
+    48.020428957                  0      page-faults                                                 
+    49.020842255            721,639      cache-references                                            
+    49.020842255            505,911      cache-misses              #   67.079 % of all cache refs    
+    49.020842255                  0      page-faults                                                 
+    50.021261425          1,918,757      cache-references                                            
+    50.021261425            831,477      cache-misses              #  106.944 % of all cache refs    
+    50.021261425              1,043      page-faults                                                 
+#           time             counts unit events
+    51.021678017          1,613,130      cache-references                                            
+    51.021678017          1,119,933      cache-misses              #  141.072 % of all cache refs    
+    51.021678017                153      page-faults                                                 
+    52.022110676          1,188,251      cache-references                                            
+    52.022110676            825,603      cache-misses              #  103.013 % of all cache refs    
+    52.022110676                 23      page-faults                                                 
+    53.022526505            781,037      cache-references                                            
+    53.022526505            579,984      cache-misses              #   72.401 % of all cache refs    
+    53.022526505                  0      page-faults                                                 
+    54.022974534            592,555      cache-references                                            
+    54.022974534            425,557      cache-misses              #   53.381 % of all cache refs    
+    54.022974534                  0      page-faults                                                 
+    55.023394148          1,318,254      cache-references                                            
+    55.023394148            686,204      cache-misses              #   85.065 % of all cache refs    
+    55.023394148                694      page-faults                                                 
+    56.023806016          1,703,949      cache-references                                            
+    56.023806016          1,039,191      cache-misses              #  126.314 % of all cache refs    
+    56.023806016                267      page-faults                                                 
+    57.024226974          1,222,073      cache-references                                            
+    57.024226974            802,968      cache-misses              #   96.776 % of all cache refs    
+    57.024226974                 48      page-faults                                                 
+    58.024645626            296,793      cache-references                                            
+    58.024645626            215,040      cache-misses              #   26.208 % of all cache refs    
+    58.024645626                  0      page-faults                                                 
+    59.025066115            606,584      cache-references                                            
+    59.025066115            432,096      cache-misses              #   52.895 % of all cache refs    
+    59.025066115                  2      page-faults                                                 
+    60.025480308            589,462      cache-references                                            
+    60.025480308            417,899      cache-misses              #   51.395 % of all cache refs    
+    60.025480308                  0      page-faults                                                 
+    61.025897851            565,454      cache-references                                            
+    61.025897851            352,090      cache-misses              #   43.519 % of all cache refs    
+    61.025897851                122      page-faults                                                 
+    62.026339417            719,392      cache-references                                            
+    62.026339417            492,337      cache-misses              #   60.963 % of all cache refs    
+    62.026339417                 30      page-faults                                                 
+    63.026764598            472,557      cache-references                                            
+    63.026764598            298,857      cache-misses              #   37.251 % of all cache refs    
+    63.026764598                  0      page-faults                                                 
+    64.027184321            587,911      cache-references                                            
+    64.027184321            418,852      cache-misses              #   52.426 % of all cache refs    
+    64.027184321                  0      page-faults                                                 
+    65.027602234            330,445      cache-references                                            
+    65.027602234            235,862      cache-misses              #   29.791 % of all cache refs    
+    65.027602234                  0      page-faults                                                 
+    66.028019486            569,053      cache-references                                            
+    66.028019486            347,666      cache-misses              #   44.100 % of all cache refs    
+    66.028019486                134      page-faults                                                 
+    67.028429952            374,937      cache-references                                            
+    67.028429952            257,353      cache-misses              #   32.902 % of all cache refs    
+    67.028429952                  0      page-faults                                                 
+    68.028880538            796,593      cache-references                                            
+    68.028880538            555,072      cache-misses              #   70.945 % of all cache refs    
+    68.028880538                  1      page-faults                                                 
+    69.029277198            958,589      cache-references                                            
+    69.029277198            673,978      cache-misses              #   85.863 % of all cache refs    
+    69.029277198                  0      page-faults                                                 
+    70.029700567            582,280      cache-references                                            
+    70.029700567            404,702      cache-misses              #   51.749 % of all cache refs    
+    70.029700567                  0      page-faults                                                 
+    71.030164365            804,206      cache-references                                            
+    71.030164365            545,004      cache-misses              #   69.661 % of all cache refs    
+    71.030164365                119      page-faults                                                 
+    72.030601621            916,770      cache-references                                            
+    72.030601621            578,441      cache-misses              #   73.759 % of all cache refs    
+    72.030601621                  0      page-faults                                                 
+    73.031031852            721,207      cache-references                                            
+    73.031031852            524,495      cache-misses              #   66.954 % of all cache refs    
+    73.031031852                  0      page-faults                                                 
+    74.031452951            412,647      cache-references                                            
+    74.031452951            267,033      cache-misses              #   34.307 % of all cache refs    
+    74.031452951                  0      page-faults                                                 
+    75.031865640            543,809      cache-references                                            
+    75.031865640            391,004      cache-misses              #   50.437 % of all cache refs    
+    75.031865640                  0      page-faults                                                 
+#           time             counts unit events
+    76.032281605            656,282      cache-references                                            
+    76.032281605            406,823      cache-misses              #   52.584 % of all cache refs    
+    76.032281605                123      page-faults                                                 
+    77.032701247            309,266      cache-references                                            
+    77.032701247            213,942      cache-misses              #   27.870 % of all cache refs    
+    77.032701247                  0      page-faults                                                 
+    78.033116176          1,098,819      cache-references                                            
+    78.033116176            687,062      cache-misses              #   89.011 % of all cache refs    
+    78.033116176                  7      page-faults                                                 
+    79.033533385            739,091      cache-references                                            
+    79.033533385            530,698      cache-misses              #   68.791 % of all cache refs    
+    79.033533385                  0      page-faults                                                 
+    80.033913600          1,198,709      cache-references                                            
+    80.033913600            699,633      cache-misses              #   90.065 % of all cache refs    
+    80.033913600                636      page-faults                                                 
+    81.034333870            994,005      cache-references                                            
+    81.034333870            609,658      cache-misses              #   78.213 % of all cache refs    
+    81.034333870                138      page-faults                                                 
+    82.034748622          1,088,614      cache-references                                            
+    82.034748622            623,054      cache-misses              #   79.546 % of all cache refs    
+    82.034748622                166      page-faults                                                 
+    83.035160131            314,639      cache-references                                            
+    83.035160131            231,317      cache-misses              #   29.747 % of all cache refs    
+    83.035160131                  0      page-faults                                                 
+    84.035572280            382,843      cache-references                                            
+    84.035572280            244,909      cache-misses              #   31.687 % of all cache refs    
+    84.035572280                  2      page-faults                                                 
+    85.035899547            521,875      cache-references                                            
+    85.035899547            367,319      cache-misses              #   47.706 % of all cache refs    
+    85.035899547                  0      page-faults                                                 
+    86.036325406            856,720      cache-references                                            
+    86.036325406            602,077      cache-misses              #   78.094 % of all cache refs    
+    86.036325406                124      page-faults                                                 
+    87.036744710            741,255      cache-references                                            
+    87.036744710            510,783      cache-misses              #   66.282 % of all cache refs    
+    87.036744710                 30      page-faults                                                 
+    88.037166788            422,710      cache-references                                            
+    88.037166788            301,251      cache-misses              #   39.293 % of all cache refs    
+    88.037166788                  0      page-faults                                                 
+    89.037582196            698,578      cache-references                                            
+    89.037582196            475,673      cache-misses              #   62.106 % of all cache refs    
+    89.037582196                  0      page-faults                                                 
+    90.038022594            860,959      cache-references                                            
+    90.038022594            643,227      cache-misses              #   83.867 % of all cache refs    
+    90.038022594                  0      page-faults                                                 
+    91.038351252            900,332      cache-references                                            
+    91.038351252            587,912      cache-misses              #   76.508 % of all cache refs    
+    91.038351252                121      page-faults                                                 
+    92.038705221          1,932,512      cache-references                                            
+    92.038705221          1,127,084      cache-misses              #  144.298 % of all cache refs    
+    92.038705221                657      page-faults                                                 
+    93.039126307          1,644,321      cache-references                                            
+    93.039126307            828,441      cache-misses              #  104.818 % of all cache refs    
+    93.039126307                144      page-faults                                                 
+    94.039580026          1,381,260      cache-references                                            
+    94.039580026            908,531      cache-misses              #  114.044 % of all cache refs    
+    94.039580026                  0      page-faults                                                 
+    95.040000607            736,306      cache-references                                            
+    95.040000607            483,414      cache-misses              #   60.729 % of all cache refs    
+    95.040000607                  6      page-faults                                                 
+    96.040419162            536,031      cache-references                                            
+    96.040419162            345,124      cache-misses              #   43.504 % of all cache refs    
+    96.040419162                126      page-faults                                                 
+    97.040829731            839,396      cache-references                                            
+    97.040829731            590,976      cache-misses              #   74.451 % of all cache refs    
+    97.040829731                  0      page-faults                                                 
+    98.041246194            737,538      cache-references                                            
+    98.041246194            507,356      cache-misses              #   63.962 % of all cache refs    
+    98.041246194                  1      page-faults                                                 
+    99.041662064            559,653      cache-references                                            
+    99.041662064            411,661      cache-misses              #   52.053 % of all cache refs    
+    99.041662064                  0      page-faults                                                 
+   100.042012283            563,173      cache-references                                            
+   100.042012283            356,531      cache-misses              #   45.212 % of all cache refs    
+   100.042012283                  0      page-faults                                                 
+#           time             counts unit events
+   101.042439599            963,554      cache-references                                            
+   101.042439599            623,002      cache-misses              #   78.831 % of all cache refs    
+   101.042439599                123      page-faults                                                 
+   102.042873648            454,649      cache-references                                            
+   102.042873648            313,311      cache-misses              #   39.810 % of all cache refs    
+   102.042873648                  0      page-faults                                                 
+   103.043321565            457,283      cache-references                                            
+   103.043321565            327,223      cache-misses              #   41.748 % of all cache refs    
+   103.043321565                  0      page-faults                                                 
+   103.572217888            238,378      cache-references                                            
+   103.572217888            174,638      cache-misses              #   22.431 % of all cache refs    
+   103.572217888                  1      page-faults                                                 
