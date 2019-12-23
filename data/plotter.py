@@ -16,8 +16,8 @@ def plot(plot_type, query, gnuplot_headers, columns_filter):
     with open(output_path, "w") as fp_out:
 
         # Gnuplot headers
-        for i in range(len(gnuplot_headers)):
-            fp_out.write(gnuplot_headers[i] + '\n')
+        for header in gnuplot_headers:
+            fp_out.write(header + '\n')
 
         for col_filter in columns_filter:
             cols = '1:' + str(5 + col_filter[0]) + ' '

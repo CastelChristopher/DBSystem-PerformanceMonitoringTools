@@ -1,18 +1,18 @@
 import os
 import sys
 script_path = os.path.dirname(__file__)
-sys.path.append(os.path.join(script_path, 'utils'))
-from utils import plot_type
+# sys.path.append(os.path.join(script_path, 'utils'))
+# from utils import plot_type
 
-logs_folder_path = os.path.join(script_path, 'logs')
-plots_folder_path = os.path.join(script_path, 'plots')
+logs_folder_path = os.path.join(script_path, '..', 'logs')
+plots_folder_path = os.path.join(script_path, '..', 'plots')
 
 def merge(plot_type, query):
 
     data_file = plot_type + ".dat"
     plot_file = plot_type + "_merged.dat"
-    client_input_path = os.path.join(plots_folder_path, query, "data", "java.dat")
-    server_input_path = os.path.join(plots_folder_path, query, "data", data_file)
+    client_input_path = os.path.join(plots_folder_path, query, "java.dat")
+    server_input_path = os.path.join(plots_folder_path, query, data_file)
     output_path = os.path.join(plots_folder_path, query, plot_file)
 
     with open(client_input_path) as fp_client_in, \
