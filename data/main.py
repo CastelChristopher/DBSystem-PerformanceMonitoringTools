@@ -3,20 +3,26 @@ import sys
 from enum import Enum
 script_path = os.path.dirname(__file__)
 sys.path.append(os.path.join(script_path, 'formatters'))
+sys.path.append(os.path.join(script_path, 'mergers'))
 sys.path.append(os.path.join(script_path, 'utils'))
 from utils import plot_type
+from utils import helpers
 from formatters import ifpps_formatter
 from formatters import perf_formatter
 from formatters import pidstat_formatter
 from formatters import java_formatter
-import merger
+from formatters import java_avg_formatter
+from mergers import  merger
 import plotter
 
 logs_folder_path = os.path.join(script_path, 'logs')
 plots_folder_path = os.path.join(script_path, 'plots')
 
 logs_folders = os.listdir(logs_folder_path)
+logs_folders.sort(key=helpers.natural_keys)
 plots_folders = os.listdir(plots_folder_path)
+plots_folders = [entry for entry in plots_folders if os.path.isdir(os.path.join(plots_folder_path, entry))]
+plots_folders.sort(key=helpers.natural_keys)
 
 # builds "to format" list
 todo_list = []
@@ -31,15 +37,14 @@ for index, item in enumerate(logs_folders):
 for idx, query in enumerate(todo_list):
     log_folder = os.path.join(logs_folder_path, query)
     plot_folder = os.path.join(plots_folder_path, query)
-    plot_data_folder = os.path.join(plots_folder_path, query, "data")
 
-    # os.mkdir(plot_folder)
-    # os.mkdir(plot_data_folder)
+    os.mkdir(plot_folder)
 
     # formatters
-    # perf_formatter.format(log_folder, plot_folder)
-    # pidstat_formatter.format(log_folder, plot_folder)
-    # ifpps_formatter.format(log_folder, plot_folder)
+    perf_formatter.format(log_folder, plot_folder)
+    pidstat_formatter.format(log_folder, plot_folder)
+    ifpps_formatter.format(log_folder, plot_folder)
+    java_avg_formatter.format(log_folder, plot_folder)
     java_formatter.format(log_folder, plot_folder)
 
 # ======================
@@ -47,7 +52,21 @@ for idx, query in enumerate(todo_list):
 # ======================
 
 gnuplot_headers = [
-    'set xlabel "Queries"'
+    'reset',
+    'set grid',
+    'set border 0',
+    'set style line 101 lc rgb "#808080" lt 1 lw 1',
+    # wxt
+    'set terminal wxt size 512,512 enhanced font "Verdana,10" persist',
+    # Style
+    '# load line style definitions',
+    'load "../../gnuplot_libs/parula.pal"',
+    'set style line 101 lc rgb "#808080" lt 1',
+    'set border 3 back ls 101',
+    'set tics nomirror out scale 0.75',
+    # Grid
+    'set style line 102 lc rgb"#808080" lt 0 lw 1',
+    'set grid back ls 102'
 ]
 
 # PIDSTAT
@@ -193,7 +212,7 @@ ifpps_col_labels = [
 ]
 
 
-FILTER_IFPPS_RAM = [20]
+FILTER_IFPPS_BASIC = [6, 14]
 
 def fill_col_labels(col_labels, filter):
     filters_out = []
@@ -207,20 +226,41 @@ for idx, query in enumerate(plots_folders):
     # PERF
     # --------------------
 
-    custom_headers = gnuplot_headers.copy()
-    # merger.merge("perf", query)
+    # merge
+    merger.merge("perf", query)
 
+    # plot
     filters = fill_col_labels(perf_col_labels, FILTER_PERF_ALL)
-    custom_headers.append('set title "perf_all"')
-    custom_headers.append('set ylabel "measurement"')
-    custom_headers.append('plot "perf_merged.dat" with errorbars')
-    custom_headers.append('set xrange [0:100]')
-    custom_headers.append('set yrange [0:500]')
 
-    # plotter.plot("perf", query, custom_headers, [])
+    additional_headers = [
+        'set title "perf"',
+        'set ylabel "measurement"',
+        'plot "perf_merged.dat"',
+        'set xrange [0:100]',
+        'set yrange [0:500]',
+    ]
+    custom_headers = gnuplot_headers.copy()
+    custom_headers.extend(additional_headers)
 
     # IFPPS
     # --------------------
+
+    # merge
+    merger.merge("ifpps", query)
+
+    # plot
+    additional_headers = [
+        'set title "ifpps"',
+        'set ylabel "measurement"',
+        'plot "ifpps_merged.dat" using 1:3 title "avg response time (ms)" with lines',
+        'set xrange [0:100]',
+        'set yrange [0:500]',
+    ]
+    custom_headers = gnuplot_headers.copy()
+    custom_headers.extend(additional_headers)
+
+    filters = fill_col_labels(ifpps_col_labels, FILTER_IFPPS_BASIC)
+    plotter.plot("ifpps", query, custom_headers, filters)
     
     # PIDSTAT
     # --------------------
